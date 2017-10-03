@@ -1,0 +1,45 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.ui.layout.form"
+		controllerName="sap.ui.demo.ptsgoodreceipt.V2" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="PTS Goods Receipt" showNavButton="true" navButtonPress="BackButtonPress">
+		
+	
+	<f:SimpleForm id="SimpleFormDisplay354"
+            minWidth="1024"
+            maxContainerCols="2"
+            editable="false"
+            layout="ResponsiveGridLayout"
+            title="Course Info"
+            labelSpanL="3"
+            labelSpanM="3"
+            emptySpanL="4"
+            emptySpanM="4"
+            columnsL="2"
+            columnsM="2">
+            <f:content>
+            
+                <Label text="SNo" />
+                <Input id = "SNo"/>
+                           
+                <Label text="Title" />
+                <Input id = "Title"/>
+                
+                <Label text="Course" />
+                <Input id = "Course"/>
+             
+                <Label text="Batch" />
+                <Input id = "Batch"/>
+                
+                 <Label text="Subject" />
+                <Input id = "Subject"/>
+             
+               <Label text="Submitted By" />
+               <Input id = "SubmittedBy"/>
+               
+               
+            </f:content>
+        </f:SimpleForm>
+	<Button text ="Next"/>
+		
+		
+	</Page>
+</mvc:View>
